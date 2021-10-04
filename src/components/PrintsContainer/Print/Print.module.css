@@ -1,0 +1,10 @@
+.print-card {
+  background-color: rgb(238, 237, 237);
+  cursor: pointer;
+}
+
+.print-card:hover {
+  box-shadow: 0px 0px 20px rgb(184, 184, 184);
+  transform: scale(1.01);
+  transition-duration: 0.2s;
+}
