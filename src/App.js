@@ -23,7 +23,6 @@ function App() {
           params: {
             page,
           },
-          headers: { "content-type": "application/json" },
         });
         setPrintsData(response.data);
       } catch (err) {
